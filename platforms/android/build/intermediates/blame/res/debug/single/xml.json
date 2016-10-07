@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jack/firebasechat/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/Users/jack/firebasechat/platforms/android/res/xml/config.xml"
+    },
+    {
+        "merged": "/home/jack/firebasechat/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/home/jack/firebasechat/platforms/android/res/xml/config.xml"
+    }
+]

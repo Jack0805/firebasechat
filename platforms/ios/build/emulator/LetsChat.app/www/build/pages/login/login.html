@@ -1,0 +1,62 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar primary>
+    <ion-title>login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="padding">
+
+	<div style="margin: 0 auto; width:100px;padding-top:50px" >
+	<img src="img/logo.png">
+	</div>
+	<form [formGroup]="loginForm" style="padding:30px;">
+		<ion-list>
+
+			<!--<ion-item>
+				<ion-lable floating>Email</ion-lable>
+				<ion-input type="text" formControlName="email" class="form-control"></ion-input>
+			</ion-item>
+
+			<ion-item>
+				<ion-lable floating>Password</ion-lable>
+				<ion-input type="password" formControlName="password" class="form-control"></ion-input>
+			</ion-item>-->
+
+			<ion-item style="border-style: none;">
+    			<ion-label stacked>UserEmail</ion-label>
+    			<ion-input type="text" formControlName="email" class="form-control"></ion-input>
+  			</ion-item>
+
+  			<ion-item>
+    			<ion-label stacked>Password</ion-label>
+    			<ion-input type="password" formControlName="password" class="form-control"></ion-input>
+  			</ion-item>
+
+
+
+		</ion-list>
+
+		<div padding>
+			<button primary block (click)="signin()" [disabled]="!loginForm.valid">Sign in</button>
+		</div>
+
+		<div padding>
+			<button outline block (click)="createAccount()" [disabled]="!loginForm.valid">
+				<ion-icon name="person">Create account</ion-icon>
+			</button>
+
+		</div>
+	</form>
+	<div style="margin: 0 auto; width:130px;padding:10px">
+	<ion-icon name="bulb" secondary><a (click)="enterHelp()">  Help Center</a></ion-icon>
+	</div>
+</ion-content>

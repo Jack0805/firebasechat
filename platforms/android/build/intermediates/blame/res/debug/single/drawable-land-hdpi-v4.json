@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jack/firebasechat/platforms/android/build/intermediates/res/merged/debug/drawable-land-hdpi-v4/screen.png",
+        "source": "/Users/jack/firebasechat/platforms/android/res/drawable-land-hdpi/screen.png"
+    },
+    {
+        "merged": "/home/jack/firebasechat/platforms/android/build/intermediates/res/merged/debug/drawable-land-hdpi-v4/screen.png",
+        "source": "/home/jack/firebasechat/platforms/android/res/drawable-land-hdpi/screen.png"
+    }
+]

@@ -1,0 +1,32 @@
+<ion-content>
+
+  <ion-slides [options]="slideOptions">
+
+    <ion-slide>
+      <img src="img/slide1.png" />
+    </ion-slide>
+
+    <ion-slide>
+      <img src="img/slide2.png" />
+    </ion-slide>
+
+    <ion-slide>
+      <img src="img/slide3.png" />
+    </ion-slide>
+
+    <ion-slide>
+      <ion-row>
+      	<ion-col>
+      		<button ion-button color="danger" round (click)="goToHome()" style="margin-top:20px;">Let's Chat!</button>
+      	</ion-col>
+      </ion-row>
+    	<ion-row>
+    		<ion-col>
+      		<img src="img/slide4.png" />
+      	</ion-col>
+      </ion-row>
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

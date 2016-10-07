@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/jack/firebasechat/platforms/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon.png",
+        "source": "/home/jack/firebasechat/platforms/android/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/jack/firebasechat/platforms/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon.png",
+        "source": "/Users/jack/firebasechat/platforms/android/res/drawable-xhdpi/icon.png"
+    }
+]

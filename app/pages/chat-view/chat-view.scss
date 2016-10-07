@@ -1,0 +1,44 @@
+.chat-view {
+	.messages {
+		width: 100%;
+		position: relative;
+
+		.message{
+			width: 70%;
+			padding: 5px 10px;
+			background: #256B9B;
+			color: #fff;
+			border-radius: 5px;
+			margin: 5px;
+			float: left;
+			text-align: left;
+		}
+
+		.message.me{
+			float:right;
+			margin-right:0px;
+			background:#fff;
+			border:1px solid #256B9B;
+			color: #222;
+			text-align: left;
+		}
+
+		.myavatar.me{
+
+			float:right;	
+		}
+
+		.timelabel{
+
+			float:right;
+			margin-bottom:0px;
+		}
+
+		.timelabel.me{
+
+			float:right;
+			margin-bottom:0px;
+		}
+
+	}
+}
